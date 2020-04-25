@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Dogrow",
+  "version": "0.1.0",
+  "description": "Grow your instagram pupup",
+  "author": "Adrien Gervaix",
+    
+  "browser_action": {
+   "default_icon": "icon.png"
+  },
+ 
+  "content_scripts": [{
+    "css": ["css/extension.css"],
+    "matches": ["https://www.instagram.com/*"]
+  }]
+} 
